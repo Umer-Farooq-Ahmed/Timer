@@ -1,0 +1,29 @@
+.countdown {
+    width: 90%;
+    max-width: 600px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo6Y4AIGLY1TjIl8_2V_pe6d2w4XUDQ9n_D4AFoZbMbSg31LDkn5H_lOrRjvE6WSZ9_-8&usqp=CAU);
+    background-size: cover;
+    background-position:center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+  color: #FFF;
+  margin: 200px auto 0;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  font-size: 32px;
+ font-weight: 300;
+  }
+  
+  .countdown-item {
+    text-align: center;
+    margin: 0 10px;
+  }
+  
+  .countdown-item span {
+    font-size: 2em;
+  }
+  .countdown-item:nth-child(4){
+     margin-top: 40px;
+  }
